@@ -1,0 +1,17 @@
+.users-data-container {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.user-btn {
+  border: 0;
+  background-color: transparent;
+}
+@media only screen and (max-width: 576px) {
+  .users-data-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}

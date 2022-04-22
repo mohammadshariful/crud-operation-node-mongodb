@@ -1,0 +1,13 @@
+.form-container {
+  width: 40%;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  .form-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
