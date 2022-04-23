@@ -19,23 +19,23 @@ const UpdateUser = () => {
         </Modal.Header>
         <Modal.Body>
           <Form>
-            <Form.Group className="mb-3" controlId="name">
+            <Form.Group className="mb-2" controlId="name">
               <Form.Label>Customer Name</Form.Label>
               <Form.Control type="text" placeholder="Name" />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="address">
+            <Form.Group className="mb-2" controlId="address">
               <Form.Label>Address</Form.Label>
               <Form.Control type="text" placeholder="Address" />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="organization">
+            <Form.Group className="mb-2" controlId="organization">
               <Form.Label>Organization</Form.Label>
               <Form.Control type="text" placeholder="organization" />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="email">
+            <Form.Group className="mb-2" controlId="email">
               <Form.Label>Email</Form.Label>
               <Form.Control type="text" placeholder="Email" />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="number">
+            <Form.Group className="mb-2" controlId="number">
               <Form.Label>Phone No.</Form.Label>
               <Form.Control type="number" placeholder="Phone" />
             </Form.Group>
